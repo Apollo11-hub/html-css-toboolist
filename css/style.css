@@ -9,13 +9,13 @@ General
   font-family: Arial, Helvetica, sans-serif;
 }
 
-main{
-  height: 2000px;
-}
-
 section{
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
 
 .container{
@@ -48,7 +48,7 @@ Main
 */
 
   .buttonspace{
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   .buttonspace div{
@@ -60,7 +60,6 @@ Main
   #butt-one{
     padding: 6px;
     margin-left: 50px;
-    color: white;
     background-color: #47adf1;
     border:1px solid  #47adf1;
     border-radius: 10%;
@@ -75,6 +74,8 @@ Main
 
   .todolist{
     padding-top: 2px;
+    padding-bottom: 100px;
+    
   }
 
   .todolist div{
@@ -98,7 +99,7 @@ Main
     color: #434750;
     font-size: 20px;
     font-weight: 500;
-    padding-top: 15px;
+    padding-top: 20px;
   }
 
   .positive::before{
@@ -108,7 +109,7 @@ Main
     margin-right: 15px;
     border: 1px solid #5dbda4;
     border-radius: 50%;
-    font-weight: bold;
+    font-size: 15px;
   }
 
   .negative::before{
@@ -118,14 +119,15 @@ Main
     margin-right: 15px;
     border: 1px solid #ff0000;
     border-radius: 50%;
-    font-weight: bold;
+    font-size: 15px;
   }
 
   .editorial::after{
     content:"Editorial";
     margin-left: 10px;
     padding: 7px;
-    border-radius: 20px;
+    border-radius: 15px;
+    font-size: 15px;
     color: white;
     background-color: #45abea;
     }
@@ -135,7 +137,8 @@ Main
     content:"Q1 Goals";
     margin-left: 10px;
     padding: 7px;
-    border-radius: 20px;
+    border-radius: 15px;
+    font-size: 15px;
     color: white;
     background-color: #9c72e4;
     }
@@ -144,7 +147,8 @@ Main
     content:"Recruiting";
     margin-left: 10px;
     padding: 7px;
-    border-radius: 20px;
+    border-radius: 15px;
+    font-size: 15px;
     color: white;
     background-color: #64c0a9;
     }
@@ -153,32 +157,32 @@ Main
     content:"Mobile";
     margin-left: 10px;
     padding: 7px;
-    border-radius: 20px;
+    border-radius: 15px;
+    font-size: 15px;
     color: white;
     background-color: #f29e33;
     }
 
-    .none::after{
-    content:"none";
-    margin-left: 10px;
-    padding: 7px;
-    border-radius: 20px;
-    color: white;
-    background-color: #45abea;
-    }
     .website::after{
     content:"Website";
     margin-left: 10px;
     padding: 7px;
-    border-radius: 20px;
+    border-radius: 15px;
+    font-size: 15px;
     color: white;
     background-color: #d863a1;
     }
+
     .sales::after{
     content:"Sales";
     margin-left: 10px;
     padding: 7px;
-    border-radius: 20px;
+    border-radius: 15px;
+    font-size: 15px;
     color: white;
     background-color: #b0c926;
+    }
+
+    #bottom{ 
+      padding-bottom: 30px;
     }
